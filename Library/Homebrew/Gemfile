@@ -29,7 +29,7 @@ gem "rspec-wait", require: false
 gem "rubocop", ">= 1.44.0", require: false
 gem "rubocop-ast", require: false
 gem "simplecov", require: false
-gem "simplecov-cobertura", require: false
+gem "simplecov-cobertura", ">= 3.0.0", require: false
 gem "warning", require: false
 
 group :sorbet, optional: true do
